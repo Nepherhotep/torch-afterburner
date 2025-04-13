@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "torch-afterburner"
+version = "0.1.0"
+description = "Accelerate pytorch models"
+authors = ["Alex Zankevich <alex.zankevich@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+torch = ">=v2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
