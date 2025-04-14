@@ -9,6 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = ">=3.10"
 torch = ">=v2.0.0"
+black = "^25.1.0"
 
 
 [build-system]
